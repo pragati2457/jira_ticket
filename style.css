@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E6BA95;
+}
+.toolbox-cont{
+    height: 5rem;
+    background-color: #A2B38B;
+    display: flex;
+    align-items: center;
+}
+.toolbox-cont>*{
+    margin-left: 5rem;
+    border-radius: 3px;
+}
+.toolbox-priority-cont{
+    height: 3rem;
+    background-color: #FAFDD6;
+    width: 18rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.color{
+    height: 1.5rem;
+    width: 3rem;
+}
+.ligthpink{
+    background-color: lightpink;
+}
+.blue{
+    background-color: lightblue;
+}
+.green{
+    background-color: lightgreen;
+}
+.black{
+    background-color: black;
+}
+.action-btn-cont{
+    background-color: #FAFDD6;
+    width: 10rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.action-btn-cont>*{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    font-size: 1.5rem;
+    color: black;
+}
+.modal-cont{
+    background-color: #FAFDD6;
+    height: 50vh;
+    width: 50vw;
+    position: absolute;
+    top: 25vh;
+    left:25vw;
+    display:none;
+}
+.textarea-cont{
+    height: 100%;
+    width: 75%;
+    outline:none;
+    border: none;
+    resize: none;
+    padding: 2rem;
+    font-size: 2rem;
+    background-color: #E4E9BE;
+}
+.priority-colors-cont{
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.priority-color{
+    height: 3rem;
+    width: 5rem;
+}
+.active{
+    border: 4px solid #A2B38B;
+}
+.main-cont{
+    margin-top: 2rem;
+    display: flex;
+    gap:2rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ticket-cont{
+    background-color: #FAFDD6;
+    height: 10rem;
+    width: 16rem;
+}
+.ticket-color{
+    height: 1rem;
+}
+
+.ticket-id{
+    height: 1.5rem;
+    color:#E6BA95;
+    margin-left: 0.5rem;
+    margin-top: 0.25rem;
+    font-size: 0.75rem;
+    font-weight:bolder;
+}
+
+.task-area{
+    height: 5rem;
+    font-size: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    outline: none;
+    overflow: auto;
+}
+
+.ticket-lock{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+}
